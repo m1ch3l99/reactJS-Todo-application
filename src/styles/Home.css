@@ -1,0 +1,97 @@
+.home {
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.home__addTodo {
+  width: 70%;
+  height: 650px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  border-radius: 20px;
+}
+
+.home__addTodoForm {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  border-bottom: 5px solid #9ad3ff;
+  border-radius: 5px;
+}
+
+.home__addTodoForm--input {
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin-right: 30px;
+  outline: none;
+  font-size: 17px;
+  font-family: serif;
+}
+
+.home__addTodoForm--button {
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #9ad3ff;
+  color: #0091ff;
+  font-weight: bolder;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  transition: all 0.3s ease-in;
+}
+
+.home__addTodoForm--button:hover {
+  transform: scale(1.1);
+}
+
+.home__addTodoForm--button span {
+  margin-left: 10px;
+}
+
+.home__addTodoForm--warning {
+  color: crimson;
+  position: absolute;
+  margin-top: 60px;
+  padding-bottom: 10px;
+}
+
+.home__addTodo--todos {
+  width: 80%;
+  margin: -20px auto;
+  padding: 20px;
+  height: 400px;
+  overflow-y: scroll;
+  list-style-type: none;
+}
+
+.home__addTodo--todos::-webkit-scrollbar {
+  display: none;
+}
+
+.home__addTodo--recommendation {
+  color: #1588e1;
+  margin: 20px;
+}
+
+.addIcon {
+  font-size: 50px !important;
+  color: #1588e1;
+  cursor: pointer;
+}
+
+.home__addTodo--recommendationDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}

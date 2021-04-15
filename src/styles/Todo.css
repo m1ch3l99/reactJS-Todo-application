@@ -1,0 +1,123 @@
+.todo {
+  position: relative;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #ffffff80;
+  backdrop-filter: blur(3px);
+  margin-bottom: 20px;
+}
+
+.todo__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo__desc {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 25px;
+  color: #1588e1;
+}
+
+.todo__desc--completed {
+  text-decoration: line-through;
+  color: rgb(12, 236, 12);
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.todo__time {
+  color: #42adff;
+  font-size: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.todo__actions {
+  display: flex;
+  align-items: center;
+  border-left: 2px solid #1588e1;
+}
+
+.todo__actions--complete,
+.todo__actions--edit,
+.todo__actions--delete {
+  margin: 0 10px;
+  font-size: 25px !important;
+  color: #1588e1;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.todo__actions--complete:hover,
+.todo__actions--edit:hover,
+.todo__actions--delete:hover {
+  transform: scale(1.2);
+}
+
+.todo__actions--complete:hover {
+  color: rgb(12, 236, 12);
+}
+
+.todo__actions--delete:hover {
+  color: crimson;
+}
+
+.todo__actions--edit:hover {
+  color: #111;
+}
+
+/* input style */
+.todo__edit--input {
+  font-family: serif;
+  width: 70%;
+  outline: none;
+  border: none;
+  padding: 10px;
+  height: 20px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.todo__edit--saveBtn,
+.todo__edit--cancelBtn {
+  font-family: serif;
+  width: 15%;
+  margin: 0 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.todo__edit--saveBtn {
+  background: #1588e1;
+  color: white;
+  font-size: 17px;
+}
+
+.todo__edit--cancelBtn {
+  background: #1588e1;
+  color: white;
+  font-size: 17px;
+}
+
+.todo__edit--cancelBtn:hover {
+  background: crimson;
+  transform: scale(1.1);
+}
+
+.todo__edit--saveBtn:hover {
+  background: rgb(12, 236, 12);
+  transform: scale(1.1);
+}

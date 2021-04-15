@@ -1,0 +1,31 @@
+.header {
+  background-color: #1588e1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo--image {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+.header__logo--title {
+  color: white;
+  margin-left: 40px;
+}
+
+.header__date {
+  margin-right: 20px;
+  color: #bce2ff;
+}
