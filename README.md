@@ -1,5 +1,6 @@
 # reactJS-Todo-application
-This is a web based todo application built with React JS, react context-api, hooks, and some of the Material UI library components.
+This is a web based todo application built with React JS, react context-api, hooks, some of the Material UI library components and React flip move for some animations.
+
 
 Application features:
 
@@ -11,7 +12,10 @@ Application features:
 
 -Complete a todo,
 
--Todos are saved in local storage.
+-Todos are saved in local storage,
+
+-On each visit user will have a random quote with its author fetched using an api quote.
+
 
 Note: User can't delete a todo before completing it.
 
