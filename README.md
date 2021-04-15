@@ -64,3 +64,6 @@ Application features:
 -On each visit user will have a random quote with its author fetched using an api quote.
 
 Note: User can't delete a todo before completing it.
+
+## Deployed URL:
+https://reactjs-todo-web-app.netlify.app/
